@@ -2,15 +2,16 @@ import React from "react";
 import OurProjectImg from "../assets/images/our-projects.webp";
 import ourProjectLogo from "../assets/images/our-project-logo.webp";
 import ourProjectRight from "../assets/images/our-Project-right.webp";
+
 const OurProject = () => {
   return (
     <div className="relative z-10">
       <div className="absolute top-[5%] right-0 -z-10 overflow-hidden">
         <img className="h-full" src={ourProjectRight} alt="right" />
       </div>
-      <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 pt-5 md:pt-[100px] lg:pt-[80px] xl:pt-[160px] 2xl:pt-[240px] mx-auto ">
-        <div className="flex flex-row flex-wrap -mx-3 items-center pb-12 ">
-          <div className="md:w-6/12 w-full px-3">
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 pt-5 md:pt-[100px] lg:pt-[180px] xl:pt-[210px] 2xl:pt-[240px] mx-auto ">
+        <div className="flex flex-row flex-wrap -mx-3 items-center pb-12 mt-[45px]  ">
+          <div className="lg:w-6/12 w-full px-3">
             <div className="relative -z-30">
               <img
                 className="w-full hover:scale-105 transition-all ease-linear duration-300 "
@@ -24,7 +25,7 @@ const OurProject = () => {
               />
             </div>
           </div>
-          <div className="md:w-6/12 w-full px-3">
+          <div className="lg:w-6/12 w-full px-3">
             <h2 className="text-[#32352C] font-Montserrat font-bold leading-normal text-[35px] sm:text-[45px] md:text-[50px] text-center md:text-start">
               Our Project
             </h2>

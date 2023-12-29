@@ -6,7 +6,7 @@ import BottomWhite from "../assets/images/whitePaperSvg.svg";
 const WhitePaper = () => {
   return (
     <div>
-      <div className="bg-[url(./assets/images/whitePaper-bg-img.png)] bg-cover bg-no-repeat  ">
+      <div className="bg-[url(./assets/images/whitePaper-bg-img.png)]  size bg-no-repeat object-cover  ">
         <div className="flex flex-wrap flex-row  items-center justify-center py-14">
           <div className="sm:w-6/12 md:w-4/12 px-3 relative z-10">
             <div>

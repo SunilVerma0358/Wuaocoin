@@ -38,6 +38,7 @@ function App() {
         ) : (
           <div>
             <HeroSection />
+
             <Benefits />
             <WhitePaper />
             <Roadmap />

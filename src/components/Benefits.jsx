@@ -26,7 +26,7 @@ const Benefits = () => {
   ];
   const MyBenefitCard = Benefit.map((props) => {
     return (
-      <div className="sm:w-6/12 w-full md:w-4/12 px-3 pt-6">
+      <div className="sm:w-6/12 w-full lg:w-4/12 px-3 pt-6">
         <div
           className={`bg-[#FBF3E5] rounded-borderrounded overflow-hidden animate-borderrounded `}
         >

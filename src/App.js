@@ -19,7 +19,13 @@ function App() {
       setLorder(false);
     }, 3000);
   }, []);
-  document.title = `The Future of E-Commerce (${window.innerWidth})`;
+
+  function windowPrint() {
+    setInterval(() => {
+      document.title = `The Future of E-Commerce (${window.innerWidth})`;
+    }, 1);
+  }
+  windowPrint();
   return (
     <>
       <div>

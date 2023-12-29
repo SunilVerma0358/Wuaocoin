@@ -10,8 +10,8 @@ import leftElipse from "../assets/images/leftEllips.webp";
 const HeroSection = () => {
   return (
     <div>
-      <div className=" md:bg-[url(./assets/images/headerimg.webp)] Hero-img   ">
-        <div className="bg-heroGradient md:bg-none relative z-20">
+      <div className=" md:bg-[url(./assets/images/headerimg.webp)] Hero-img    ">
+        <div className="bg-heroGradient md:bg-none relative z-20 ">
           <div className="absolute top-[15%] hidden md:block z-10 left-[35%]  ">
             <img src={HeroMainEllipse} alt="heroMain" />
           </div>
@@ -24,7 +24,7 @@ const HeroSection = () => {
           <>
             <WuaocoinNav />
           </>
-          <div className="   container max-w-[1160px] 2xl:max-w-[1320px] mx-auto ps-3 pe-5 md:pt-[80px] pb-[30px] lg:pt-[160px] xl:pt-[269px] md:pb-[100px] lg:pb-[150px] xl:pb-[200px] ">
+          <div className="   container max-w-[1160px] 2xl:max-w-[1320px] mx-auto ps-3 pe-5 md:pt-[80px] pb-[30px] lg:pt-[160px] xl:pt-[229px] 2xl:pt-[250px] md:pb-[100px] lg:pb-[150px] xl:pb-[200px] 2xl:pb-[0] ">
             <div className="flex md:flex-row flex-wrap -mx-3 items-center  ">
               <div className="md:w-6/12 w-full px-3">
                 <h2 className="text-[20px] leading-normal font-semibold text-white font-Montserrat ">

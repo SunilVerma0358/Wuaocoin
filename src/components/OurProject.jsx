@@ -4,11 +4,11 @@ import ourProjectLogo from "../assets/images/our-project-logo.webp";
 import ourProjectRight from "../assets/images/our-Project-right.webp";
 const OurProject = () => {
   return (
-    <div className="relative -z-10">
+    <div className="relative z-10">
       <div className="absolute top-[5%] right-0 -z-10 overflow-hidden">
         <img className="h-full" src={ourProjectRight} alt="right" />
       </div>
-      <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 pt-5 md:pt-[100px] lg:pt-[150px] xl:pt-[200px] mx-auto ">
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 pt-5 md:pt-[100px] lg:pt-[80px] xl:pt-[160px] 2xl:pt-[240px] mx-auto ">
         <div className="flex flex-row flex-wrap -mx-3 items-center pb-12 ">
           <div className="md:w-6/12 w-full px-3">
             <div className="relative -z-30">

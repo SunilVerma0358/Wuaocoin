@@ -38,12 +38,12 @@ const Tokenimics = () => {
           >
             Subdivided into 5% Founders
           </p>
-          <p className="font-Montserrat font-bold sm:bg-transparent sm:py-0 bg-[#77C4D3]  text-white  sm:mt-0 rounded-[10px] py-3 sm:text-[#32352C]  text-[20px] sm:absolute sm:bottom-[2%] sm:left-[28%] ">
+          <p className="font-Montserrat font-bold sm:bg-transparent sm:py-0 bg-[#77C4D3]  text-white mt-3  sm:mt-0 rounded-[10px] py-3 sm:text-[#32352C]  text-[20px] sm:absolute sm:bottom-[2%] sm:left-[28%] ">
             Workers
           </p>{" "}
           <p
             className="
-          font-Montserrat font-bold text-[20px] sm:bg-transparent sm:py-0 bg-[#F7931E]  text-white  sm:mt-0 rounded-[10px] py-3 sm:text-[#32352C]  sm:max-w-[180px] text-center sm:text-start sm:absolute sm:top-[5%] md:top-[10%]  sm:right-[0%] lg:top-[38%] lg:right-[-10%] 2xl:right-[-12%]"
+          font-Montserrat font-bold text-[20px] sm:bg-transparent sm:py-0 bg-[#F7931E]  text-white mt-3  sm:mt-0 rounded-[10px] py-3 sm:text-[#32352C]  sm:max-w-[180px] text-center sm:text-start sm:absolute sm:top-[5%] md:top-[10%]  sm:right-[0%] lg:top-[38%] lg:right-[-10%] 2xl:right-[-12%]"
           >
             Buyers/holders/ community
           </p>

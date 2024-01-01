@@ -1,6 +1,6 @@
 import React from "react";
-import LogoFooter from "../assets/images/footerLogo.webp";
-import wuaocion from "../assets/images/wuaoicon.webp";
+import LogoFooter from "../assets/images/footerLogo2.webp";
+import wuaocion from "../assets/images/footerW.webp";
 import footerBottom from "../assets/images/footerBottom.webp";
 import footertop from "../assets/images/footerTop.webp";
 import footerEllipse from "../assets/images/footerEllipse.webp";
@@ -12,7 +12,7 @@ import india from "../assets/Svg/footer-in.svg";
 const FooterSection = () => {
   return (
     <div className="relative z-10">
-      <div className="absolute bottom-0 right-0 -z-10">
+      <div className="absolute bottom-0 right-0 -z-20">
         <img className=" w-full" src={footerBottom} alt="bottom" />
       </div>
       <div className="absolute top-[-20%] left-0 -z-10">
@@ -28,9 +28,13 @@ const FooterSection = () => {
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3 pt-[50px] sm:pt-[60px] md:pt-[100px] pb-[45px] ">
         <div className="flex flex-row flex-wrap -mx-3 ">
           <div className="w-full md:w-6/12 px-3">
-            <div className="logo flex gap-2 items-center ">
-              <img className="animate-footerLogo" src={LogoFooter} alt="logo" />
-              <img className="w-2/4" src={wuaocion} alt="name" />
+            <div className="logo flex gap-2 items-center max-w-[262px] ">
+              <img
+                className="w-1/4 animate-footerLogo"
+                src={LogoFooter}
+                alt="logo"
+              />
+              <img className="w-3/4" src={wuaocion} alt="name" />
             </div>
             <p className="text-[16px] text-black opacity-[0.7] font-Montserrat font-normal max-w-[252px] py-[22px]">
               Welcome to The Future of the Market. The world's first Global
@@ -88,10 +92,10 @@ const FooterSection = () => {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-6/12 px-3 pt-6">
-            <div className="flex flex-row flex-wrap -mx-3">
-              <div className=" w-6/12 sm:w-4/12 px-3">
-                <p className=" text-[#32352C] text-[18px] font-Montserrat font-semibold leading-[150%]">
+          <div className="w-full md:w-6/12 px-3 pt-6 md:pt-0">
+            <div className="flex flex-row flex-wrap -mx-3 justify-between">
+              <div className=" w-6/12 sm:w-4/12 order-1 lg:w-3/12 px-3">
+                <p className=" text-[#32352C] text-[16px] lg:text-[18px] font-Montserrat font-semibold leading-[150%]">
                   Documents
                 </p>
                 <ul className="pt-[14px]">
@@ -121,8 +125,8 @@ const FooterSection = () => {
                   </li>
                 </ul>
               </div>
-              <div className=" w-6/12 sm:w-4/12 px-3 ">
-                <p className=" text-[#32352C] text-[18px] font-Montserrat font-semibold leading-[150%]">
+              <div className=" w-6/12 sm:w-4/12 lg:w-3/12 order-3 sm:order-2 px-3  pt-6 sm:pt-0">
+                <p className=" text-[#32352C] text-[16px] lg:text-[18px] font-Montserrat font-semibold leading-[150%]">
                   Quick Links
                 </p>
                 <ul className="pt-[14px]">
@@ -184,8 +188,8 @@ const FooterSection = () => {
                   </li>
                 </ul>
               </div>
-              <div className=" w-6/12 sm:w-4/12 px-3 pt-6 sm:pt-0">
-                <p className=" text-[#32352C] text-[18px] font-Montserrat font-semibold leading-[150%]  ">
+              <div className=" w-6/12 sm:w-4/12 order-2 sm:order-3 lg:w-3/12 px-3 ">
+                <p className=" text-[#32352C] text-[16px] lg:text-[18px] font-Montserrat font-semibold leading-[150%]  ">
                   Company
                 </p>
                 <ul className="pt-[14px]">

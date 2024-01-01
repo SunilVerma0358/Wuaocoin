@@ -10,6 +10,8 @@ import teligram from "../assets/Svg/footer-twitter.svg";
 import india from "../assets/Svg/footer-in.svg";
 
 const FooterSection = () => {
+  const currentDate = new Date();
+  const year = currentDate.getFullYear();
   return (
     <div className="relative z-10">
       <div className="absolute bottom-0 right-0 -z-20">
@@ -217,7 +219,7 @@ const FooterSection = () => {
       </div>
       <div className=" border border-[#E2E2E2]">
         <p className="text-[#848680] text-base font-Montserrat font-normal leading-[150%] py-4 sm:py-[25px] text-center">
-          © Copyright 2022 - Wuaocoin
+          © Copyright {year}- Wuaocoin
         </p>
       </div>
     </div>
